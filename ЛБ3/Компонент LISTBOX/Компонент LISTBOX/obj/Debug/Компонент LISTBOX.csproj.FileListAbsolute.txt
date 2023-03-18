@@ -1,0 +1,12 @@
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\bin\Debug\Компонент LISTBOX.exe.config
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\bin\Debug\Компонент LISTBOX.exe
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\bin\Debug\Компонент LISTBOX.pdb
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент_LISTBOX.Form1.resources
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент_LISTBOX.Properties.Resources.resources
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.csproj.GenerateResource.cache
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.exe
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент LISTBOX.pdb
+C:\Users\ACER\source\repos\Компонент LISTBOX\Компонент LISTBOX\obj\Debug\Компонент_LISTBOX.Form2.resources
