@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gameResults>
+  <player id="1">
+    <name>Monster</name>
+    <score>250</score>
+  </player>
+  <player id="2">
+    <name>Mila</name>
+    <score>150</score>
+  </player>
+  <player id="3">
+    <name>Luntic</name>
+    <score>240</score>
+  </player>
+  <player id="4">
+    <name>Kuzya</name>
+    <score>220</score>
+  </player>
+  <player id="5">
+    <name>Ваня</name>
+    <score>122</score>
+  </player>
+  <player id="6">
+    <name>e1</name>
+    <score>212</score>
+  </player>
+  <player id="7">
+    <name>fdfd</name>
+    <score>343</score>
+  </player>
+  <player id="8">
+    <name>паап</name>
+    <score>3434</score>
+  </player>
+</gameResults>

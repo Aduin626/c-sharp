@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BorderStyle" Type="System.Windows.Forms.FormBorderStyle" Scope="User">
+      <Value Profile="(Default)">Fixed3D</Value>
+    </Setting>
+    <Setting Name="Minimized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Maximized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Window</Value>
+    </Setting>
+    <Setting Name="BORDERSTYLEE" Type="System.Windows.Forms.FormBorderStyle" Scope="User">
+      <Value Profile="(Default)">Sizable</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
