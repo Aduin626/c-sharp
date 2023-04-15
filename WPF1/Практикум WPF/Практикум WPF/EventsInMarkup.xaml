@@ -1,0 +1,15 @@
+﻿<Window x:Class="Практикум_WPF.EventsInMarkup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум_WPF"
+        mc:Ignorable="d"
+        Title="EventsInMarkup" Height="350" Width="500">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="93" Stroke="Black" VerticalAlignment="Top" Width="500" RenderTransformOrigin="0.506,0.495" Fill="Aqua" MouseEnter="Rectangle_MouseEnter" MouseLeave="Rectangle_MouseLeave"/>
+        <Rectangle HorizontalAlignment="Center" Height="100" Stroke="Black" VerticalAlignment="Center" Width="500" Fill="Chocolate"/>
+        <Button Content="5 Задание" HorizontalAlignment="Left" Margin="237,272,0,0" VerticalAlignment="Top" Height="35" Width="76" Click="Button_Click"/>
+
+    </Grid>
+</Window>
