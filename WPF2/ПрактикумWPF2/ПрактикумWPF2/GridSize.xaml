@@ -1,0 +1,22 @@
+﻿<Window x:Class="ПрактикумWPF2.GridSize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПрактикумWPF2"
+        mc:Ignorable="d"
+        Title="Высота строк и колонок в Grid" d:DesignHeight="350" d:DesignWidth="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Background="LightBlue" HorizontalAlignment="Center" Height="100" TextWrapping="Wrap" Text="TextBlock 1 (Height=100)" VerticalAlignment="Center" Width="525"/>
+        <TextBlock Grid.Row="1" Background="LightGreen" HorizontalAlignment="Center" TextWrapping="Wrap" Width="525" Text="TextBlock2 (Height=&quot;*&quot;)" Margin="0,0,0,55" Grid.RowSpan="2"/>
+        <TextBlock Grid.Row="2" Background="LightCyan" Height="55" HorizontalAlignment="Center" Margin="0,143,0,0" TextWrapping="Wrap" Text="TextBlock 3 (Height=&quot;Auto&quot;)" VerticalAlignment="Top" Width="525"/>
+        <Button Content="Задание 3" HorizontalAlignment="Left" Margin="446,50,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

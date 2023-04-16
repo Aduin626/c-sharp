@@ -1,0 +1,30 @@
+﻿<Window x:Class="ПрактикумWPF2.Variant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПрактикумWPF2"
+        mc:Ignorable="d"
+        Title="Variant4" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="5,5,681,5" Orientation="Horizontal">
+            <TextBlock x:Name="TextBlock" HorizontalAlignment="Left" Margin="5" Grid.Row="1" TextWrapping="Wrap" Text="Выберите режим " VerticalAlignment="Top"/>
+
+        </StackPanel>
+        <InkCanvas Name="inkCanvas"
+                   Grid.Row="1" Margin="0"
+                   Background="Azure"
+                   EditingMode="{Binding ElementName=IstEditingMode, Path=SelectedItem}"
+                   >
+
+        </InkCanvas>
+        <RadioButton x:Name="RadioButton1" Content="Рисовать" Checked="RadioBatton1_Checked" HorizontalAlignment="Left" Margin="181,0,0,11" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="RadioButton2" Content="Стирать" Checked="RadioBatton2_Checked" HorizontalAlignment="Left" Margin="326,10,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
