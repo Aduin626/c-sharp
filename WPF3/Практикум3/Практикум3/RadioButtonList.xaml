@@ -1,0 +1,33 @@
+﻿<Window x:Class="Практикум3.RadioButtonList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум3"
+        mc:Ignorable="d"
+        Title="RadioButtonList" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <GroupBox Margin="5" Padding="10" Header="Radiobutton Group1 ">
+                <StackPanel>
+                    <RadioButton>Group 1</RadioButton>
+                    <RadioButton>Group 1</RadioButton>
+                    <RadioButton>Group 1</RadioButton>
+                    <RadioButton Margin="0,10,0,0"
+ GroupName="Group2">Group 2</RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Margin="5" Padding="10" Header="Radiobutton Group 2">
+                <StackPanel>
+                    <RadioButton>Group 3</RadioButton>
+                    <RadioButton>Group 3</RadioButton>
+                    <RadioButton>Group 3</RadioButton>
+                    <RadioButton Margin="0,10,0,0"
+ GroupName="Group2">Group 2</RadioButton>
+                    <Button Content="Задание 5" Click="Button_Click"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Практикум3.WPFMouseEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум3"
+        mc:Ignorable="d"
+        Title="WPFMouseEvent" Height="450" Width="800">
+    <Grid Margin="5" RenderTransformOrigin="0.505,0.871">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Rectangle Name="rect"
+MouseMove="MouseMoved"
+Fill="LightBlue" Margin="0,0,0,55" Grid.RowSpan="2" ></Rectangle>
+        <TextBlock Name="lblInfo" Grid.Row="1" Height="20" VerticalAlignment="Top" Margin="0,189,0,0"/>
+        <Button Content="Задание 12 (помогите)" HorizontalAlignment="Left" Margin="570,159,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="170" Click="Button_Click"/>
+
+    </Grid>
+</Window>

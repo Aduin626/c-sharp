@@ -1,0 +1,23 @@
+﻿<Window x:Class="Практикум3.Transparent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум3"
+        mc:Ignorable="d"
+        Title="Transparent" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/f1734cc64ef41afd02bb587d55adf4c4_w750_h440_cp.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button Width="100" Height="100" Margin="110,141,298,51" Click="Button_Click"></Button>
+        <Button Name="textBox"
+ Width="200"
+ Height="92"
+ Opacity="0.5"
+ Margin="175,73,132,127"
+ Background="Red"
+ Foreground="White">
+        </Button>
+    </Grid>
+</Window>

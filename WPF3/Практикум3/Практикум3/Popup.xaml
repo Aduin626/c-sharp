@@ -1,0 +1,21 @@
+﻿<Window x:Class="Практикум3.Popup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум3"
+        mc:Ignorable="d"
+        Title="Popup" Height="450" Width="800">
+    <Grid Margin="10">
+        <TextBlock TextWrapping="Wrap">            <Run TextDecorations="Underline" MouseEnter="run_MouseEnter">
+ ссылку </Run>        </TextBlock>        <Popup x:Name="popLink"               StaysOpen="False" Placement="Mouse" MaxWidth="200" PopupAnimation="Scroll" AllowsTransparency="True" >
+            <Border BorderThickness="3" CornerRadius="3" BorderBrush="#AA323232" Background="#AA000000">                <TextBlock Margin="10" TextWrapping="Wrap" Foreground="White">
+                <Hyperlink Foreground="#009BFF"
+                                   NavigateUri="http://en.wikipedia.org/wiki/Term"
+                                   Click="lnk_Click">
+                    Wikipedia
+                </Hyperlink>
+                </TextBlock>            </Border>        </Popup>
+        <Button Content="Задание 8" HorizontalAlignment="Left" Margin="201,149,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>
