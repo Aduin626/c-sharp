@@ -1,0 +1,27 @@
+﻿<Window x:Class="Практикум_WPF4.NotR"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум_WPF4"
+        mc:Ignorable="d"
+        Title="NotR" Height="450" Width="800"         AllowsTransparency="True"
+        Background="Transparent"
+        WindowStyle="None"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Border Background="LightBlue" 
+            CornerRadius="0,20,20,20" 
+            BorderThickness="2" 
+            BorderBrush="Black">
+
+        <Grid>
+            <Button Content="X" 
+                    Height="25" 
+                    Name="buttonClose" 
+                    Width="29" 
+                    Margin="767,0,0,421" 
+                    Click="buttonClose_Click" />
+
+        </Grid>
+    </Border>
+</Window>

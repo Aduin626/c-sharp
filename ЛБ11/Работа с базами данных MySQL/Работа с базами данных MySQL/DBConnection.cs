@@ -28,7 +28,7 @@ namespace Работа_с_базами_данных_MySQL
         static public DataTable dtProductsFromStore = new DataTable();
         static public DataTable dtPositionIDFromStore = new DataTable();
         static public DataTable dtSalesForAdmin= new DataTable();
-
+         
 
 
 

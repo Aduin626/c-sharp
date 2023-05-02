@@ -12,7 +12,7 @@ namespace Программирование_графики
 {
     public partial class Form3 : Form
     {
-        private Pen pen = new Pen(Color.Green);
+        private Pen pen = new Pen(Color.Black);
         private double x1, y1, x2, y2;
         private Pen Pen2=new Pen(Color.Black);
         private void timer1_Tick(object sender, EventArgs e)
@@ -26,8 +26,7 @@ namespace Программирование_графики
         private void Form3_Paint(object sender, PaintEventArgs e)
         {
             Graphics graphics = e.Graphics;
-            graphics.DrawRectangle(pen, (float)x2, (float)y2, 20, 20);
-            graphics.DrawLine(Pen2, ClientSize.Width , ClientSize.Height /2+40, 0, ClientSize.Height / 2+40);
+            graphics.DrawEllipse(pen, (float)x2, (float)y2, 20, 20);
         }
 
         private void Form3_Load(object sender, EventArgs e)

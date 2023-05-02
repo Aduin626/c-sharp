@@ -1,0 +1,42 @@
+﻿<Window x:Class="Практикум_WPF4.GlassEffect"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практикум_WPF4"
+        mc:Ignorable="d"
+        Title="GlassEffect" Height="450" Width="800" Background="Transparent"
+        xmlns:Effects="clr-namespace:System.Windows.Media.Effects;assembly=PresentationCore">
+    <Window.Resources>
+        <Effects:BlurEffect x:Key="GlassEffect" Radius="10" KernelType="Gaussian" RenderingBias="Quality"/>
+    </Window.Resources>
+    
+    <DockPanel>
+        <Border DockPanel.Dock="Bottom" Name="TopBar" Height="385">
+            <TextBlock Padding="10" Background="White">Контент окна</TextBlock>
+
+
+        </Border>
+      <Border Background="White" BorderBrush="Gray" BorderThickness="1">
+            <Border.OpacityMask>
+                <VisualBrush Visual="{Binding ElementName=ContentControl}"></VisualBrush>
+
+            </Border.OpacityMask>
+            <ContentControl x:Name="ContentControl" Background="White" Effect="{StaticResource GlassEffect}" >
+                <StackPanel Orientation="Horizontal" Margin="0" Background="White">
+                    <TextBox Height="23" HorizontalAlignment="Left" Name="textBox1" VerticalAlignment="Top" Width="364" />
+                    <Button Content="OK" Height="24" Margin="5,0,0,0" HorizontalAlignment="Left"  Name="button1" VerticalAlignment="Top" Width="84" />
+                    <Button Content="Задание самостоятельное" Click="Button_Click"/>
+
+
+
+                </StackPanel>
+            </ContentControl>
+           
+                
+            
+
+        </Border> 
+
+    </DockPanel>
+</Window>
